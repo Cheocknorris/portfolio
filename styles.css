@@ -24,35 +24,36 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items:center;
-    width: 55%;
+    width: 80%;
     height: 40%;
     position: absolute;
     top: 20%;
+    right:25%;
+    overflow: hidden;
 }
 
 .intro-left {
     height: 100%;
+    width: 100%;
     text-align: right;
-
+    overflow: hidden;
 }
 
 .intro-line {
     background-color: white;
     height: 100%;
     width: 4px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: hidden;
 }
 
 .intro-right {
     height: 100%;
+    width: 100%;
+    overflow: hidden;
     /* border: 1px solid white; */
 }
-
-/* .intro-sub {
-    color: white;
-    font-size: 4em;
-} */
 
 .intro-sub-left {
     color: white;
@@ -90,7 +91,7 @@ html, body {
     position: absolute;
     font-size: 1.5em;
     top: 73%;
-    right: 47%;
+    right: 58%;
     height: 50px;
     width: 110px;
     font-family: 'Khand', sans-serif;
