@@ -1,0 +1,102 @@
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.intro-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content {
+    font-family: 'Khand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: 55%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+}
+
+.intro-left {
+    height: 100%;
+    text-align: right;
+
+}
+
+.intro-line {
+    background-color: white;
+    height: 100%;
+    width: 4px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.intro-right {
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+/* .intro-sub {
+    color: white;
+    font-size: 4em;
+} */
+
+.intro-sub-left {
+    color: white;
+    margin-right: 5%;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 4em;
+}
+
+.intro-title-left {
+    color: white;
+    margin-right: 5%;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 6em;
+}
+
+.intro-sub-right {
+    color: white;
+    margin-left: 5%;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 4em;
+}
+
+.intro-title-right {
+    color: white;
+    margin-left:5%;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 6em;
+}
+
+.intro-button {
+    position: absolute;
+    font-size: 1.5em;
+    top: 73%;
+    right: 47%;
+    height: 50px;
+    width: 110px;
+    font-family: 'Khand', sans-serif;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 3px;
+}
