@@ -150,7 +150,7 @@ i.fas {
 .work-title {
     height: 155px;
     overflow: hidden;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
     margin-left: 140px;
 }
 
@@ -197,7 +197,7 @@ i.fas {
     flex-wrap: wrap;
 }
 
-.project-container {
+.project-container-one {
     background-color: white;
     position: relative;
     width: 350px;
@@ -209,14 +209,118 @@ i.fas {
               0 0 4px rgba(0, 0, 0, 0.12),
               0 0 8px rgba(0, 0, 0, 0.12),
               0 0 16px rgba(0, 0, 0, 0.12);
-    opacity: 0;
-    /* transition-delay: 2s;  */
-    transition: 2s;
+    transform: translateY(50%);
+    transition: .5s;
     border: 1px solid black;
 }
 
-.project-container.show {
-    opacity: 1;
+.project-container-one.show {
+    transform: translateY(0);
+}
+
+.project-container-two {
+    background-color: white;
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(50%);
+    transition: .6s;
+    border: 1px solid black;
+}
+
+.project-container-two.show {
+    transform: translateY(0);
+}
+
+.project-container-three {
+    background-color: white;
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(50%);
+    transition: .7s;
+    border: 1px solid black;
+}
+
+.project-container-three.show {
+    transform: translateY(0);
+}
+
+.project-container-four {
+    background-color: white;
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(50%);
+    transition: .8s;
+    border: 1px solid black;
+}
+
+.project-container-four.show {
+    transform: translateY(0);
+}
+
+.project-container-five {
+    background-color: white;
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(50%);
+    transition: .9s;
+    border: 1px solid black;
+}
+
+.project-container-five.show {
+    transform: translateY(0);
+}
+
+.project-container-six {
+    background-color: white;
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
+    transform: translateY(50%);
+    transition: 1s;
+    border: 1px solid black;
+}
+
+.project-container-six.show {
+    transform: translateY(0);
 }
 
 .project-image {
@@ -241,21 +345,108 @@ i.fas {
     text-align: center;
 }
 
-.project-container:hover .project-image {
-  opacity: 0.2;
+.project-container-one:hover .project-image {
+    opacity: 0.2;
 }
 
-.project-container:hover .project-overlay {
-  opacity: 1;
+.project-container-one:hover .project-overlay {
+    opacity: 1;
 }
 
-.project-container:hover .project-show-more {
+.project-container-one:hover .project-show-more {
     transform: translateY(0);
-    }
+}
 
-.project-container:hover .more {
+.project-container-one:hover .more {
     transform: translateY(0);
-    }
+}
+
+
+.project-container-two:hover .project-image {
+     opacity: 0.2;
+}
+
+.project-container-two:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-container-two:hover .project-show-more {
+    transform: translateY(0);
+}
+
+.project-container-two:hover .more {
+    transform: translateY(0);
+}
+
+
+.project-container-three:hover .project-image {
+    opacity: 0.2;
+}
+
+.project-container-three:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-container-three:hover .project-show-more {
+    transform: translateY(0);
+}
+
+.project-container-three:hover .more {
+    transform: translateY(0);
+}
+
+
+
+.project-container-four:hover .project-image {
+    opacity: 0.2;
+}
+
+.project-container-four:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-container-four:hover .project-show-more {
+    transform: translateY(0);
+}
+
+.project-container-four:hover .more {
+    transform: translateY(0);
+}
+
+
+.project-container-five:hover .project-image {
+    opacity: 0.2;
+}
+
+.project-container-five:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-container-five:hover .project-show-more {
+    transform: translateY(0);
+}
+
+.project-container-five:hover .more {
+    transform: translateY(0);
+}
+
+
+.project-container-six:hover .project-image {
+    opacity: 0.2;
+}
+
+.project-container-six:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-container-six:hover .project-show-more {
+    transform: translateY(0);
+}
+
+.project-container-six:hover .more {
+    transform: translateY(0);
+}
+
 
 .project-name {
     color: black;
@@ -284,7 +475,7 @@ i.fas {
 .more {
     font-family: 'Khand', sans-serif;
     font-size: 2em;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     text-decoration: none;
     text-align: left;

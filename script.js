@@ -39,7 +39,42 @@
     var scene = new ScrollMagic.Scene({
         offset: 1100
     })
-    .setClassToggle('.project-container', 'show')
+    .setClassToggle('.project-container-one', 'show')
+    .reverse(false)
+    .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({
+        offset: 1100
+    })
+    .setClassToggle('.project-container-two', 'show')
+    .reverse(false)
+    .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({
+        offset: 1100
+    })
+    .setClassToggle('.project-container-three', 'show')
+    .reverse(false)
+    .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({
+        offset: 1100
+    })
+    .setClassToggle('.project-container-four', 'show')
+    .reverse(false)
+    .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({
+        offset: 1100
+    })
+    .setClassToggle('.project-container-five', 'show')
+    .reverse(false)
+    .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({
+        offset: 1100
+    })
+    .setClassToggle('.project-container-six', 'show')
     .reverse(false)
     .addTo(controller);
 
