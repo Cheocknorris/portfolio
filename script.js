@@ -7,23 +7,37 @@
     gsap.from('.intro-sub-right', { duration: .5, yPercent: 100, delay: 1.25 } )
     gsap.from('.intro-bottom', { duration: 1.5, opacity: 0, delay: 1.25 } )
 
+
+    function offset(el) {
+    var rect = el.getBoundingClientRect(),
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    }
+
+
+    var workTitle = document.querySelector('.work-title');
+    var workTitleOffset = offset(workTitle);
+    console.log( 'workTitleOffset:', workTitleOffset.left, workTitleOffset.top);
+
     var controller = new ScrollMagic.Controller();
     var scene = new ScrollMagic.Scene({
-        triggerElement: '.sub'
+        // triggerElement: '.sub'
+        offset: 800
     })
-    .setClassToggle('.sub', 'show')
+    .setClassToggle('.sub', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        triggerElement: '.sub'
+        offset: 850
     })
-    .setClassToggle('.work-line', 'show')
+    .setClassToggle('.work-line', 'right')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        triggerElement: '.project-container'
+        offset: 1100
     })
     .setClassToggle('.project-container', 'show')
     .reverse(false)

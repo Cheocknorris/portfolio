@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background-color: white;
 }
 *, *::before, *::before {
   box-sizing: border-box;
@@ -12,7 +13,7 @@ html, body {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +41,7 @@ html, body {
 }
 
 .intro-line {
-    background-color: white;
+    background-color: black;
     height: 100%;
     width: 4px;
     margin-left: 2%;
@@ -56,7 +57,7 @@ html, body {
 }
 
 .intro-sub-left {
-    color: white;
+    color: black;
     margin-right: 5%;
     margin-top:0;
     margin-bottom: 0;
@@ -64,7 +65,7 @@ html, body {
 }
 
 .intro-title-left {
-    color: white;
+    color: black;
     margin-right: 5%;
     margin-top:0;
     margin-bottom: 0;
@@ -72,7 +73,7 @@ html, body {
 }
 
 .intro-sub-right {
-    color: white;
+    color: black;
     margin-left: 5%;
     margin-top:0;
     margin-bottom: 0;
@@ -80,7 +81,7 @@ html, body {
 }
 
 .intro-title-right {
-    color: white;
+    color: black;
     margin-left:5%;
     margin-top:0;
     margin-bottom: 0;
@@ -97,9 +98,9 @@ html, body {
     height: 50px;
     width: 110px;
     font-family: 'Khand', sans-serif;
-    color: white;
+    color: black;
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid black;
     background-color: transparent;
     border-radius: 3px;
     padding-top: 5px;
@@ -107,67 +108,88 @@ html, body {
 
 i.fas {
     position: absolute;
-    color: white;
+    color: black;
     font-size: 3em;
     top: 80%;
     left: 40%;
 }
 
 .about-container {
-    color: white;
+    color: black;
     position: relative;
     width: 100%;
-    height: 50%;
-    background-color: black;
+    height: auto;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    font-family: 'Catamaran', sans-serif;
+    text-align: right;
+    padding-right: 150px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.about-text {
+    font-size: 3em;
+    margin:0;
+    line-height: 100%;
 }
 
 .work-container {
-    color: white;
+    color: black;
     position: relative;
     width: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.work-title {
+    height: 155px;
+    overflow: hidden;
+    margin-bottom: 150px;
+    margin-left: 140px;
 }
 
 .sub {
     font-family: 'Khand', sans-serif;
-    font-size: 4em;
+    font-size: 6em;
     margin: 0;
-    opacity: 0;
-    transition: .3s;
+    padding: 0;
+    overflow: hidden;
+    transform: translateY(120%);
+    transition: 1s;
 }
 
-.sub.show {
-    opacity: 1;
+.sub.up {
+    transform: translateY(0);
 }
 
 
 .work-line {
-    background-color: white;
+    background-color: black;
     height: 4px;
-    width: 16%;
+    width: 100%;
     overflow: hidden;
+    margin-top: 0;
     margin-bottom: 50px;
-    opacity: 0;
-    transition: .3s;
+    transform: translateX(-100%);
+    transition: .5s;
+    transition-delay: .5s;
 }
 
-.work-line.show {
-    opacity: 1;
+.work-line.right {
+    transform: translateX(0);
 }
 
 .projects-container {
-    color: white;
+    color: black;
     position: relative;
     width: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -176,19 +198,21 @@ i.fas {
 }
 
 .project-container {
-    background-color: black;
+    background-color: white;
     position: relative;
     width: 350px;
     margin: 10px;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 1px rgba(255, 255, 255, 0.12),
-              0 0 2px rgba(255, 255, 255, 0.12),
-              0 0 4px rgba(255, 255, 255, 0.12),
-              0 0 8px rgba(255, 255, 255, 0.12),
-              0 0 16px rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
     opacity: 0;
-    transition: .3s;
+    /* transition-delay: 2s;  */
+    transition: 2s;
+    border: 1px solid black;
 }
 
 .project-container.show {
@@ -234,7 +258,7 @@ i.fas {
     }
 
 .project-name {
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: 'Catamaran', sans-serif;
     font-size: 1.5em;
@@ -249,7 +273,7 @@ i.fas {
     top:145px;
     height: 50px;
     width: 100%;
-    background-color: white;
+    background-color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -261,7 +285,7 @@ i.fas {
     font-family: 'Khand', sans-serif;
     font-size: 2em;
     font-weight: bold;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: left;
     margin-left: 20px;
