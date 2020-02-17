@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   margin: 0;
 }
-* {
+*, *::before, *::before {
   box-sizing: border-box;
 }
 
@@ -90,6 +90,8 @@ html, body {
 .intro-button {
     position: absolute;
     font-size: 1.5em;
+    text-decoration: none;
+    text-align: center;
     top: 73%;
     right: 58%;
     height: 50px;
@@ -100,4 +102,116 @@ html, body {
     border: 2px solid white;
     background-color: transparent;
     border-radius: 3px;
+    padding-top: 5px;
+}
+
+i.fas {
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    top: 80%;
+    left: 40%;
+}
+
+.about-container {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-container {
+    color: white;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-container {
+    background-color: rgba(174, 182, 191, 0.8);
+    position: relative;
+    width: 350px;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.project-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.project-overlay {
+    position: relative;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project-container:hover .project-image {
+  opacity: 0.3;
+}
+
+.project-container:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-container:hover .project-show-more {
+    transform: translateY(0);
+    }
+
+.project-container:hover .more {
+    transform: translateY(0);
+    }
+
+.project-name {
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.5em;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+.project-show-more {
+    position:absolute;
+    top:135px;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateY(100%);
+    transition: .3s ease;
+}
+
+.more {
+    font-family: 'Khand', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 20px;
+    transform: translateY(100%);
+    transition: .4s ease;
 }
