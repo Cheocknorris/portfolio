@@ -1,10 +1,12 @@
 
 html, body {
   height: 100%;
+  min-height: 100%
   padding: 0;
   margin: 0;
   background-color: white;
 }
+
 *, *::before, *::before {
   box-sizing: border-box;
 }
@@ -148,6 +150,7 @@ i.fas {
 }
 
 .work-title {
+    position: relative;
     height: 155px;
     overflow: hidden;
     margin-bottom: 80px;
@@ -170,6 +173,8 @@ i.fas {
 
 
 .work-line {
+    position: absolute;
+    top: 120px;
     background-color: black;
     height: 4px;
     width: 100%;
@@ -195,6 +200,7 @@ i.fas {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 45px;
 }
 
 .project-container-one {
@@ -483,3 +489,135 @@ i.fas {
     transform: translateY(100%);
     transition: .4s ease;
 }
+
+footer {
+    padding: 10px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    /* background-color: black; */
+    color: white;
+    font-family: 'Khand', sans-serif;
+}
+
+.linkedin-logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.github-logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.email-logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*
+/////////////////////////////////////////////////
+SOCIAL NETWORK
+//////////////////////////////////////////////// */
+
+header {
+    position: fixed;
+    top:0;
+    right: 0;
+    margin-top: 0;
+    margin-right: 100px;
+    padding-top: 0;
+    font-family: 'Khand', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.menu {
+    margin-left: 20px;
+}
+
+.social-container {
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.social-title {
+    height: 140px;
+    width: 408px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.social-sub {
+    font-family: 'Khand', sans-serif;
+    color: black;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social-line {
+    position: absolute;
+    top: 95px;
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.social-content {
+    margin-left: 45px;
+    margin-bottom: 45px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 3fr 1fr; */
+}
+
+.gif-text {
+    text-align: left;
+    margin-top: 45px;
+    margin-left: 50px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.1em;
+}
+
+.gif-container {
+    background-color: rgba(0, 0, 0, .8);
+    margin-left: 50px;
+    width: 600px;
+    height: auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .project-gif {
+     width: 550px;
+     margin:0;
+     padding: 0;
+ }
