@@ -1,7 +1,7 @@
 
 html, body {
   height: 100%;
-  min-height: 100%
+  min-height: 100%;
   padding: 0;
   margin: 0;
   background-color: white;
@@ -491,7 +491,7 @@ i.fas {
 }
 
 footer {
-    padding: 10px;
+    padding: 20px;
     margin-top: auto;
     display: flex;
     flex-direction: row;
@@ -500,27 +500,28 @@ footer {
     /* background-color: black; */
     color: white;
     font-family: 'Khand', sans-serif;
+    border-top: 1px solid black;
 }
 
 .linkedin-logo {
-    height: 30px;
-    width: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .github-logo {
-    height: 30px;
-    width: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .email-logo {
-    height: 30px;
-    width: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /*
@@ -532,14 +533,15 @@ header {
     position: fixed;
     top:0;
     right: 0;
-    margin-top: 0;
-    margin-right: 100px;
+    margin-top: 10px;
+    margin-right: 200px;
     padding-top: 0;
     font-family: 'Khand', sans-serif;
-    font-size: 15px;
+    font-size: 1.4em;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+
 }
 
 .menu {
@@ -554,18 +556,18 @@ header {
 
 .social-title {
     height: 140px;
-    width: 408px;
+    width: 272px;
     overflow: hidden;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-bottom: 0;
     position: relative;
 }
 
 .social-sub {
     font-family: 'Khand', sans-serif;
     color: black;
-    font-size: 4em;
+    font-size: 3em;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -573,7 +575,7 @@ header {
 
 .social-line {
     position: absolute;
-    top: 95px;
+    top: 70px;
     background-color: black;
     height: 4px;
     width: 100%;
@@ -582,7 +584,7 @@ header {
 }
 
 .social-content {
-    margin-left: 45px;
+    margin-left: 65px;
     margin-bottom: 45px;
     width: 80%;
     display: grid;
@@ -592,8 +594,8 @@ header {
 
 .gif-text {
     text-align: left;
-    margin-top: 45px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 60px;
     font-family: 'Catamaran', sans-serif;
     font-size: 1.1em;
 }
@@ -601,8 +603,8 @@ header {
 .gif-container {
     background-color: rgba(0, 0, 0, .8);
     margin-left: 50px;
-    width: 600px;
-    height: auto;
+    width: 580px;
+    height: 280px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
               0 0 2px rgba(0, 0, 0, 0.12),
               0 0 4px rgba(0, 0, 0, 0.12),
@@ -620,4 +622,5 @@ header {
      width: 550px;
      margin:0;
      padding: 0;
+     border-radius: 3px;
  }
