@@ -27,11 +27,11 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items:center;
-    width: 80%;
-    height: 40%;
+    width: 90%;
+    height: 50%;
     position: absolute;
-    top: 20%;
-    right:25%;
+    top: 15%;
+    right:15%;
     overflow: hidden;
 }
 
@@ -63,7 +63,7 @@ html, body {
     margin-right: 5%;
     margin-top:0;
     margin-bottom: 0;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .intro-title-left {
@@ -71,7 +71,7 @@ html, body {
     margin-right: 5%;
     margin-top:0;
     margin-bottom: 0;
-    font-size: 6em;
+    font-size: 8em;
 }
 
 .intro-sub-right {
@@ -79,7 +79,7 @@ html, body {
     margin-left: 5%;
     margin-top:0;
     margin-bottom: 0;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .intro-title-right {
@@ -87,7 +87,7 @@ html, body {
     margin-left:5%;
     margin-top:0;
     margin-bottom: 0;
-    font-size: 6em;
+    font-size: 8em;
 }
 
 /* .intro-button {
@@ -113,11 +113,10 @@ html, body {
     color: black;
     font-size: 3em;
     top: 80%;
-    left: 40%;
+    left: 45%;
 }
 
 .about-container {
-    color: black;
     position: relative;
     width: 100%;
     height: auto;
@@ -128,12 +127,13 @@ html, body {
     font-family: 'Catamaran', sans-serif;
     text-align: right;
     padding-right: 150px;
-    margin-top: 150px;
-    margin-bottom: 200px;
+    margin-top: 65px;
+    margin-bottom: 120px;
 }
 
 .about-text {
-    font-size: 3em;
+    color: black;
+    font-size: 3.3em;
     margin:0;
     line-height: 100%;
 }
@@ -153,7 +153,7 @@ html, body {
     position: relative;
     height: 155px;
     overflow: hidden;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     margin-left: 140px;
 }
 
@@ -200,7 +200,7 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 45px;
+    margin-bottom: 80px;
 }
 
 .project-container-one {
@@ -476,6 +476,7 @@ html, body {
     align-items: center;
     transform: translateY(100%);
     transition: .3s ease;
+    /* transition: all 0.3s ease-in-out 0s; */
 }
 
 .more {
@@ -534,7 +535,7 @@ header {
     top:0;
     right: 0;
     margin-top: 30px;
-    margin-right: 200px;
+    margin-right: 190px;
     padding-top: 0;
     font-family: 'Khand', sans-serif;
     font-size: 1.4em;
@@ -575,7 +576,7 @@ header {
     transform: scaleX(1);
 }
 
-.social-container {
+.project-container {
     height: 100%;
     display: inline-flex;
     flex-direction: column;
@@ -602,7 +603,7 @@ header {
 
 .social-line {
     position: absolute;
-    top: 70px;
+    top: 65px;
     background-color: black;
     height: 4px;
     width: 100%;
@@ -610,7 +611,7 @@ header {
     margin-top: 0;
 }
 
-.social-content {
+.project-content {
     margin-left: 95px;
     margin-bottom: 80px;
     width: 80%;
@@ -635,8 +636,9 @@ header {
 .gif-container {
     background-color: rgba(0, 0, 0, .8);
     margin-left: 50px;
+    padding-top: 0;
     width: 580px;
-    height: 280px;
+    height: 298px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
               0 0 2px rgba(0, 0, 0, 0.12),
               0 0 4px rgba(0, 0, 0, 0.12),
@@ -655,4 +657,73 @@ header {
      margin:0;
      padding: 0;
      border-radius: 3px;
+ }
+
+
+ /*
+ /////////////////////////////////////////////////
+ IMAGE BOARD
+ //////////////////////////////////////////////// */
+
+ .image-title {
+     height: 80px;
+     width: 221px;
+     overflow: hidden;
+     margin-top: 70px;
+     margin-left: 150px;
+     margin-bottom: 60px;
+     position: relative;
+ }
+
+ .image-sub {
+     font-family: 'Khand', sans-serif;
+     color: black;
+     font-size: 3em;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ .image-line {
+     position: absolute;
+     top: 65px;
+     background-color: black;
+     height: 4px;
+     width: 100%;
+     overflow: hidden;
+     margin-top: 0;
+ }
+
+ /*
+ /////////////////////////////////////////////////
+ IMAGE BOARD
+ //////////////////////////////////////////////// */
+
+ .petition-title {
+     height: 80px;
+     width: 140px;
+     overflow: hidden;
+     margin-top: 70px;
+     margin-left: 150px;
+     margin-bottom: 60px;
+     position: relative;
+ }
+
+ .petition-sub {
+     font-family: 'Khand', sans-serif;
+     color: black;
+     font-size: 3em;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ .petition-line {
+     position: absolute;
+     top: 65px;
+     background-color: black;
+     height: 4px;
+     width: 100%;
+     overflow: hidden;
+     margin-top: 0;
  }
