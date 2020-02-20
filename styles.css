@@ -90,23 +90,6 @@ html, body {
     font-size: 8em;
 }
 
-/* .intro-button {
-    position: absolute;
-    font-size: 1.5em;
-    text-decoration: none;
-    text-align: center;
-    top: 73%;
-    right: 58%;
-    height: 50px;
-    width: 110px;
-    font-family: 'Khand', sans-serif;
-    color: black;
-    font-weight: bold;
-    border: 2px solid black;
-    background-color: transparent;
-    border-radius: 3px;
-    padding-top: 5px;
-} */
 
 .fa-chevron-down {
     position: absolute;
@@ -131,11 +114,101 @@ html, body {
     margin-bottom: 120px;
 }
 
-.about-text {
+.about-one {
+    overflow: hidden;
+    height: 60px;
+}
+
+.about-text-one {
     color: black;
-    font-size: 3.3em;
+    font-size: 3.5em;
     margin:0;
     line-height: 100%;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.about-text-one.up {
+    transform: translateY(0);
+}
+
+.about-text-two {
+    color: black;
+    font-size: 3.5em;
+    margin:0;
+    line-height: 100%;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.about-text-two.up {
+    transform: translateY(0);
+}
+
+.about-text-three {
+    color: black;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin:0;
+    line-height: 100%;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.about-text-three.up {
+    transform: translateY(0);
+}
+
+.about-text-four {
+    color: black;
+    font-size: 3.5em;
+    margin:0;
+    line-height: 100%;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.about-text-four.up {
+    transform: translateY(0);
+}
+
+.about-text-five {
+    color: black;
+    font-size: 3.5em;
+    margin:0;
+    line-height: 100%;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.about-text-five.up {
+    transform: translateY(0);
+}
+
+.about-text-six {
+    color: black;
+    font-size: 3.5em;
+    margin:0;
+    line-height: 100%;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.about-text-six.up {
+    transform: translateY(0);
+}
+
+.about-text-seven {
+    color: black;
+    font-size: 3.5em;
+    margin:0;
+    line-height: 100%;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.about-text-seven.up {
+    transform: translateY(0);
 }
 
 .work-container {
@@ -660,6 +733,7 @@ header {
  }
 
 
+
  /*
  /////////////////////////////////////////////////
  IMAGE BOARD
@@ -696,7 +770,7 @@ header {
 
  /*
  /////////////////////////////////////////////////
- IMAGE BOARD
+PETITION
  //////////////////////////////////////////////// */
 
  .petition-title {
@@ -719,6 +793,109 @@ header {
  }
 
  .petition-line {
+     position: absolute;
+     top: 65px;
+     background-color: black;
+     height: 4px;
+     width: 100%;
+     overflow: hidden;
+     margin-top: 0;
+ }
+
+ /*
+ /////////////////////////////////////////////////
+GITHUB
+ //////////////////////////////////////////////// */
+
+ .github-title {
+     height: 80px;
+     width: 250px;
+     overflow: hidden;
+     margin-top: 70px;
+     margin-left: 150px;
+     margin-bottom: 60px;
+     position: relative;
+ }
+
+ .github-sub {
+     font-family: 'Khand', sans-serif;
+     color: black;
+     font-size: 3em;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ .github-line {
+     position: absolute;
+     top: 65px;
+     background-color: black;
+     height: 4px;
+     width: 100%;
+     overflow: hidden;
+     margin-top: 0;
+ }
+
+
+ /*
+ /////////////////////////////////////////////////
+SPOTIFY
+ //////////////////////////////////////////////// */
+
+ .spotify-title {
+     height: 80px;
+     width: 260px;
+     overflow: hidden;
+     margin-top: 70px;
+     margin-left: 150px;
+     margin-bottom: 60px;
+     position: relative;
+ }
+
+ .spotify-sub {
+     font-family: 'Khand', sans-serif;
+     color: black;
+     font-size: 3em;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ .spotify-line {
+     position: absolute;
+     top: 65px;
+     background-color: black;
+     height: 4px;
+     width: 100%;
+     overflow: hidden;
+     margin-top: 0;
+ }
+
+ /*
+ /////////////////////////////////////////////////
+ SPOTIFY
+ //////////////////////////////////////////////// */
+
+ .connect-title {
+     height: 80px;
+     width: 238px;
+     overflow: hidden;
+     margin-top: 70px;
+     margin-left: 150px;
+     margin-bottom: 60px;
+     position: relative;
+ }
+
+ .connect-sub {
+     font-family: 'Khand', sans-serif;
+     color: black;
+     font-size: 3em;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ .connect-line {
      position: absolute;
      top: 65px;
      background-color: black;

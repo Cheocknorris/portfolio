@@ -9,4 +9,13 @@
     gsap.from('.petition-sub', { duration: .5, yPercent: 105, delay: .5 })
     gsap.from('.petition-line', { duration: .5, xPercent: -100, delay: .8 })
 
+    gsap.from('.github-sub', { duration: .5, yPercent: 105, delay: .5 })
+    gsap.from('.github-line', { duration: .5, xPercent: -100, delay: .8 })
+
+    gsap.from('.spotify-sub', { duration: .5, yPercent: 105, delay: .5 })
+    gsap.from('.spotify-line', { duration: .5, xPercent: -100, delay: .8 })
+
+    gsap.from('.connect-sub', { duration: .5, yPercent: 105, delay: .5 })
+    gsap.from('.connect-line', { duration: .5, xPercent: -100, delay: .8 })
+
 }());
