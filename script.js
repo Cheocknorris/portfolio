@@ -5,7 +5,7 @@
     gsap.from('.intro-line', { duration: 1, yPercent: 100, delay: .5 })
     gsap.from('.intro-sub-left', { duration: .5, yPercent: 100, delay: 1.25 })
     gsap.from('.intro-sub-right', { duration: .5, yPercent: 100, delay: 1.25 } )
-    gsap.from('.intro-bottom', { duration: 1.5, opacity: 0, delay: 1.25 } )
+    gsap.from('.intro-bottom', { duration: .8, opacity: 0, delay: 1.25 } )
 
 
 
@@ -32,14 +32,14 @@
     var controller = new ScrollMagic.Controller();
 
     var scene = new ScrollMagic.Scene({
-        offset: 400
+        offset: 310
     })
     .setClassToggle('.about-text-one', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 460
+        offset: 365
     })
     .setClassToggle('.about-text-two', 'up')
     .reverse(false)
@@ -47,35 +47,35 @@
 
     var scene = new ScrollMagic.Scene({
         // triggerElement: '.sub'
-        offset: 520
+        offset: 425
     })
     .setClassToggle('.about-text-three', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 580
+        offset: 480
     })
     .setClassToggle('.about-text-four', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 640
+        offset: 535
     })
     .setClassToggle('.about-text-five', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 700
+        offset: 580
     })
     .setClassToggle('.about-text-six', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 760
+        offset: 635
     })
     .setClassToggle('.about-text-seven', 'up')
     .reverse(false)
@@ -83,7 +83,7 @@
 
     var scene = new ScrollMagic.Scene({
         // triggerElement: '.sub'
-        offset: 700
+        offset: 690
     })
     .setClassToggle('.sub', 'up')
     .reverse(false)
