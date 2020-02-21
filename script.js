@@ -46,7 +46,6 @@
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        // triggerElement: '.sub'
         offset: 425
     })
     .setClassToggle('.about-text-three', 'up')

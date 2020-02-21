@@ -27,7 +27,7 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items:center;
-    width: 100%;
+    width: 95%;
     height: 50%;
     position: absolute;
     top: 15%;
@@ -584,6 +584,7 @@ html, body {
 
 
 footer {
+    /* position: relative; */
     padding: 15px;
     margin-top: auto;
     display: flex;
@@ -594,13 +595,33 @@ footer {
     color: white;
     font-family: 'Khand', sans-serif;
     border-top: 1px solid black;
+    /* box-shadow: 0 -2 1px rgba(0, 0, 0, 0.12),
+              0 -2 2px rgba(0, 0, 0, 0.12),
+              0 -2 4px rgba(0, 0, 0, 0.12),
+              0 -2 8px rgba(0, 0, 0, 0.12),
+              0 -2 16px rgba(0, 0, 0, 0.12); */
 }
+
+/* .icon-link {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+} */
 
 .linkedin-logo {
     height: 25px;
     width: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    /* transition: scale(1); */
+    transition: .2s ease;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.linkedin-logo:hover {
+    transform: scale(1.2);
 }
 
 .github-logo {
@@ -608,6 +629,14 @@ footer {
     width: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    transition: .2s ease;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.github-logo:hover {
+    transform: scale(1.2);
 }
 
 .email-logo {
@@ -615,6 +644,14 @@ footer {
     width: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    transition: .2s ease;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.email-logo:hover {
+    transform: scale(1.2);
 }
 
 /*
@@ -923,3 +960,5 @@ SPOTIFY
      overflow: hidden;
      margin-top: 0;
  }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
