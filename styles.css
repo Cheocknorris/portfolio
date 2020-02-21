@@ -961,4 +961,36 @@ SPOTIFY
      margin-top: 0;
  }
 
-@media screen and (min-width: 300px) and (max-width: 800px) {
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .intro-content {
+        width: 100%;
+        height: 18%;
+        top: 40%;
+        right: 10%
+    }
+
+    .intro-title-left {
+        font-size: 6em;
+    }
+
+    .intro-sub-left {
+        font-size: 4em;
+    }
+
+    .intro-title-right {
+        font-size: 6em;
+    }
+
+    .intro-sub-right {
+        font-size: 4em;
+    }
+
+    .fa-chevron-down {
+        position: absolute;
+        color: black;
+        font-size: 5em;
+        top: 70%;
+        left: 45%;
+    }
+
+}

@@ -32,49 +32,49 @@
     var controller = new ScrollMagic.Controller();
 
     var scene = new ScrollMagic.Scene({
-        offset: 310
+        offset: 300
     })
     .setClassToggle('.about-text-one', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 365
+        offset: 350
     })
     .setClassToggle('.about-text-two', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 425
+        offset: 400
     })
     .setClassToggle('.about-text-three', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 480
+        offset: 450
     })
     .setClassToggle('.about-text-four', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 535
+        offset: 500
     })
     .setClassToggle('.about-text-five', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 580
+        offset: 550
     })
     .setClassToggle('.about-text-six', 'up')
     .reverse(false)
     .addTo(controller);
 
     var scene = new ScrollMagic.Scene({
-        offset: 635
+        offset: 600
     })
     .setClassToggle('.about-text-seven', 'up')
     .reverse(false)
@@ -82,7 +82,7 @@
 
     var scene = new ScrollMagic.Scene({
         // triggerElement: '.sub'
-        offset: 690
+        offset: 685
     })
     .setClassToggle('.sub', 'up')
     .reverse(false)
