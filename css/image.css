@@ -1,0 +1,216 @@
+
+html, body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+*, *::before, *::before {
+    box-sizing: border-box;
+}
+
+.image-header {
+    position: fixed;
+    top:0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 190px;
+    padding-top: 0;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+
+.menu {
+    font-size: bold;
+    margin-left: 20px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: black;
+}
+
+.menu:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.menu:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.project-container {
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.image-title {
+    height: 80px;
+    width: 221px;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.image-sub {
+    font-family: 'Khand', sans-serif;
+    color: black;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.image-line {
+    position: absolute;
+    top: 65px;
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.project-content {
+    margin-left: 95px;
+    margin-bottom: 80px;
+    margin-top:0;
+    padding-top: 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 3fr 1fr; */
+}
+
+.gif-text {
+    text-align: left;
+    /* margin-top: 5px; */
+    margin-left: 60px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.1em;
+    line-height: 150%;
+}
+
+.see-on {
+    color: black;
+}
+
+.gif-container {
+    background-color: rgba(0, 0, 0, .8);
+    margin-left: 50px;
+    padding-top: 0;
+    width: 580px;
+    height: 298px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 2px rgba(0, 0, 0, 0.12),
+              0 0 4px rgba(0, 0, 0, 0.12),
+              0 0 8px rgba(0, 0, 0, 0.12),
+              0 0 16px rgba(0, 0, 0, 0.12);
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .project-gif {
+     width: 550px;
+     margin:0;
+     padding: 0;
+     border-radius: 3px;
+ }
+
+
+
+ footer {
+     /* position: relative; */
+     padding-top: 10px;
+     /* padding-bottom: 5px; */
+     margin-top: auto;
+     display: flex;
+     flex-direction: row;
+     align-items:center;
+     justify-content: center;
+     /* background-color: black; */
+     color: white;
+     font-family: 'Khand', sans-serif;
+     border-top: 1px solid black;
+     /* box-shadow: 0 -2 1px rgba(0, 0, 0, 0.12),
+               0 -2 2px rgba(0, 0, 0, 0.12),
+               0 -2 4px rgba(0, 0, 0, 0.12),
+               0 -2 8px rgba(0, 0, 0, 0.12),
+               0 -2 16px rgba(0, 0, 0, 0.12); */
+ }
+
+ /* .icon-link {
+     position: absolute;
+     padding: 0;
+     margin: 0;
+ } */
+
+ .linkedin-logo {
+     height: 25px;
+     width: 25px;
+     margin-left: 25px;
+     margin-right: 25px;
+     /* transition: scale(1); */
+     transition: .2s ease;
+     padding: 0;
+     margin-bottom: 0;
+     cursor: pointer;
+ }
+
+ .linkedin-logo:hover {
+     transform: scale(1.2);
+ }
+
+ .github-logo {
+     height: 25px;
+     width: 25px;
+     margin-left: 25px;
+     margin-right: 25px;
+     transition: .2s ease;
+     padding: 0;
+     margin-bottom: 0;
+     cursor: pointer;
+ }
+
+ .github-logo:hover {
+     transform: scale(1.2);
+ }
+
+ .email-logo {
+     height: 25px;
+     width: 25px;
+     margin-left: 25px;
+     margin-right: 25px;
+     transition: .2s ease;
+     padding: 0;
+     margin-bottom: 0;
+     cursor: pointer;
+ }
+
+ .email-logo:hover {
+     transform: scale(1.2);
+ }

@@ -585,7 +585,8 @@ html, body {
 
 footer {
     /* position: relative; */
-    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     margin-top: auto;
     display: flex;
     flex-direction: row;
@@ -625,8 +626,8 @@ footer {
 }
 
 .github-logo {
-    height: 25px;
-    width: 25px;
+    height: 26px;
+    width: 26px;
     margin-left: 25px;
     margin-right: 25px;
     transition: .2s ease;
@@ -654,140 +655,6 @@ footer {
     transform: scale(1.2);
 }
 
-/*
-/////////////////////////////////////////////////
-SOCIAL NETWORK
-//////////////////////////////////////////////// */
-
-header {
-    position: fixed;
-    top:0;
-    right: 0;
-    margin-top: 30px;
-    margin-right: 190px;
-    padding-top: 0;
-    font-family: 'Khand', sans-serif;
-    font-size: 1.4em;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-
-
-
-.menu {
-    font-size: bold;
-    margin-left: 20px;
-    position: relative;
-    color: black;
-    text-decoration: none;
-}
-
-.menu:hover {
-    color: black;
-}
-
-.menu:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.4s ease-in-out 0s;
-}
-
-.menu:hover:before {
-    visibility: visible;
-    transform: scaleX(1);
-}
-
-.project-container {
-    height: 100%;
-    display: inline-flex;
-    flex-direction: column;
-}
-
-.social-title {
-    height: 80px;
-    width: 272px;
-    overflow: hidden;
-    margin-top: 70px;
-    margin-left: 150px;
-    margin-bottom: 60px;
-    position: relative;
-}
-
-.social-sub {
-    font-family: 'Khand', sans-serif;
-    color: black;
-    font-size: 3em;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.social-line {
-    position: absolute;
-    top: 65px;
-    background-color: black;
-    height: 4px;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 0;
-}
-
-.project-content {
-    margin-left: 95px;
-    margin-bottom: 80px;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 3fr 1fr; */
-}
-
-.gif-text {
-    text-align: left;
-    /* margin-top: 5px; */
-    margin-left: 60px;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 1.1em;
-    line-height: 150%;
-}
-
-.see-on {
-    color: black;
-}
-
-.gif-container {
-    background-color: rgba(0, 0, 0, .8);
-    margin-left: 50px;
-    padding-top: 0;
-    width: 580px;
-    height: 298px;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12),
-              0 0 2px rgba(0, 0, 0, 0.12),
-              0 0 4px rgba(0, 0, 0, 0.12),
-              0 0 8px rgba(0, 0, 0, 0.12),
-              0 0 16px rgba(0, 0, 0, 0.12);
-    /* border: 1px solid black; */
-    border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- }
-
- .project-gif {
-     width: 550px;
-     margin:0;
-     padding: 0;
-     border-radius: 3px;
- }
-
 
 
  /*
@@ -795,34 +662,7 @@ header {
  IMAGE BOARD
  //////////////////////////////////////////////// */
 
- .image-title {
-     height: 80px;
-     width: 221px;
-     overflow: hidden;
-     margin-top: 70px;
-     margin-left: 150px;
-     margin-bottom: 60px;
-     position: relative;
- }
 
- .image-sub {
-     font-family: 'Khand', sans-serif;
-     color: black;
-     font-size: 3em;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
- }
-
- .image-line {
-     position: absolute;
-     top: 65px;
-     background-color: black;
-     height: 4px;
-     width: 100%;
-     overflow: hidden;
-     margin-top: 0;
- }
 
  /*
  /////////////////////////////////////////////////
@@ -960,6 +800,30 @@ SPOTIFY
      overflow: hidden;
      margin-top: 0;
  }
+
+/* @media screen and ( max-height: 699px ) {
+
+    .social-title {
+        height: 75px;
+        width: 255px;
+        margin-top: 60px;
+    }
+
+    .social-sub {
+        font-size: 2.8em;
+    }
+
+    .social-line {
+        position: absolute;
+        top: 60px;
+        background-color: black;
+        height: 3px;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 0;
+    }
+
+ } */
 
 @media screen and (min-width: 900px) and (max-width: 1024px) {
     .intro-content {
