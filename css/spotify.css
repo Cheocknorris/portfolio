@@ -10,7 +10,7 @@ html, body {
     box-sizing: border-box;
 }
 
-.social-header {
+.spotify-header {
     position: fixed;
     top:0;
     right: 0;
@@ -23,7 +23,6 @@ html, body {
     flex-direction: row;
     align-items: flex-end;
 }
-
 
 
 .menu {
@@ -62,9 +61,9 @@ html, body {
     flex-direction: column;
 }
 
-.social-title {
+.spotify-title {
     height: 75px;
-    width: 275px;
+    width: 260px;
     overflow: hidden;
     margin-top: 85px;
     margin-left: 150px;
@@ -72,13 +71,7 @@ html, body {
     position: relative;
 }
 
-@-moz-document url-prefix() {
-  .social-title {
-    width: 285px;
-  }
-}
-
-.social-sub {
+.spotify-sub {
     font-family: 'Khand', sans-serif;
     color: black;
     font-size: 3em;
@@ -87,7 +80,7 @@ html, body {
     overflow: hidden;
 }
 
-.social-line {
+.spotify-line {
     position: absolute;
     top: 65px;
     background-color: black;
