@@ -22,6 +22,8 @@ html, body {
     align-items: center;
 }
 
+
+
 .intro-content {
     font-family: 'Khand', sans-serif;
     display: flex;
@@ -656,37 +658,44 @@ footer {
 }
 
 
-
 @media screen and (min-width: 900px) and (max-width: 1024px) {
     .intro-content {
         width: 100%;
-        height: 18%;
-        top: 40%;
+        height: 25%;
+        top: 30%;
         right: 10%
     }
 
+    .intro-title-right {
+        margin-left: 0;
+    }
+
     .intro-title-left {
-        font-size: 6em;
+        margin-left: 0;
+    }
+
+    .intro-title-left {
+        font-size: 7em;
+        margin-bottom: 8%;
     }
 
     .intro-sub-left {
-        font-size: 4em;
-    }
-
-    .intro-title-right {
         font-size: 6em;
     }
 
+    .intro-title-right {
+        font-size: 7em;
+        margin-bottom: 8%;
+    }
+
     .intro-sub-right {
-        font-size: 4em;
+        font-size: 6em;
     }
 
     .fa-chevron-down {
         position: absolute;
         color: black;
         font-size: 5em;
-        top: 70%;
+        top: 60%;
         left: 45%;
     }
-
-}
