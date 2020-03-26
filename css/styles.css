@@ -22,8 +22,6 @@ html, body {
     align-items: center;
 }
 
-
-
 .intro-content {
     font-family: 'Khand', sans-serif;
     display: flex;
@@ -658,7 +656,7 @@ footer {
 }
 
 
-@media screen and (min-width: 900px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .intro-content {
         width: 100%;
         height: 25%;
@@ -666,25 +664,20 @@ footer {
         right: 10%
     }
 
-    .intro-title-right {
-        margin-left: 0;
-    }
-
     .intro-title-left {
         margin-left: 0;
-    }
-
-    .intro-title-left {
-        font-size: 7em;
+        font-size: 6.5em;
         margin-bottom: 8%;
     }
 
     .intro-sub-left {
         font-size: 6em;
+        margin left: 0;
     }
 
     .intro-title-right {
-        font-size: 7em;
+        margin-left: 5%;
+        font-size: 6.5em;
         margin-bottom: 8%;
     }
 
@@ -699,3 +692,151 @@ footer {
         top: 60%;
         left: 45%;
     }
+
+@media only screen and (max-width: 899px) {
+    .intro-content {
+    width: 100%;
+    height: 25%;
+    top: 30%;
+    right: 10%
+    }
+
+    .intro-title-left {
+        margin-left: 0;
+        font-size: 4.5em;
+        margin-bottom: 8%;
+    }
+
+    .intro-sub-left {
+        font-size: 4em;
+    }
+
+    .intro-title-right {
+        margin-left: 5%;
+        font-size: 4.5em;
+        margin-bottom: 8%;
+    }
+
+    .intro-sub-right {
+        font-size: 4em;
+    }
+
+    .fa-chevron-down {
+        position: absolute;
+        color: black;
+        font-size: 4em;
+        top: 65%;
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .intro-content {
+        width: 100%;
+        height: 15%;
+        top: 35%;
+        right: 10%
+    }
+
+    .intro-title-left {
+        margin-left: 0;
+        font-size: 2em;
+        margin-bottom: 10%;
+    }
+
+    .intro-sub-left {
+        font-size: 2em;
+    }
+
+    .intro-title-right {
+        margin-left: 5%;
+        font-size: 2em;
+        margin-bottom: 10%;
+    }
+
+    .intro-sub-right {
+        font-size: 2em;
+    }
+
+    .fa-chevron-down {
+        position: absolute;
+        color: black;
+        font-size: 2em;
+        top: 55%;
+        left: 45%;
+    }
+
+    .about-container {
+        padding-right: 10%;
+    }
+
+    .about-one {
+        height: 5%;
+    }
+
+    .about-text-one {
+        font-size: 2em;
+    }
+
+    .about-text-two {
+        font-size: 2em;
+    }
+
+    .about-text-three {
+        font-size: 2em;
+    }
+
+    .about-text-four {
+        font-size: 2em;
+    }
+
+    .about-text-five {
+        font-size: 2em;
+    }
+
+    .about-text-six {
+        font-size: 2em;
+    }
+
+    .about-text-seven {
+        font-size: 2em;
+    }
+
+    .work-title {
+        margin-left: 5%;
+        height: 20%;
+    }
+
+    .sub {
+        font-size: 3em;
+    }
+
+    .work-line {
+        top: 80%;
+    }
+
+    .project-container-one {
+        width: 90%;
+    }
+
+    .project-container-two {
+        width: 90%;
+    }
+
+    .project-container-three {
+        width: 90%;
+    }
+
+    .project-container-four {
+        width: 90%;
+    }
+
+    .project-container-five {
+        width: 90%;
+    }
+
+    .project-container-six {
+        width: 90%;
+    }
+
+}

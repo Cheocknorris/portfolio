@@ -24,8 +24,6 @@ html, body {
     align-items: flex-end;
 }
 
-
-
 .menu {
     font-size: bold;
     margin-left: 20px;
@@ -199,7 +197,7 @@ html, body {
  }
 
 
-@media screen and (min-width: 900px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .project-content {
         margin-left: 95px;
         margin-bottom: 115px;
@@ -266,6 +264,122 @@ html, body {
     .email-logo {
         height: 30px;
         width: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 899px) {
+    .social-header {
+        font-size: 2em;
+        margin-top: 4%;
+        margin-right: 10%;
+    }
+
+    .project-content {
+        margin-left: 5%;
+        margin-bottom: 11%;
+    }
+
+    .social-title {
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+
+    .social-sub {
+        font-size: 3em;
+    }
+
+    .gif-container {
+        margin-bottom: 0;
+    }
+
+    .gif-text {
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+
+    .linkedin-logo {
+        height: 30px;
+        width: 30px;
+    }
+
+    .github-logo {
+        height: 30px;
+        width: 30px;;
+    }
+
+    .email-logo {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .social-header {
+        width: 100%;
+        background-color: black;
+        font-size: 1em;
+        margin-top: 0;
+        margin-right: 0;
+        padding-top: 5%;
+        padding-right: 10%;
+    }
+
+    .menu {
+        color: white;
+    }
+
+    .social-title {
+        width: 49%;
+        margin-left: 10%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+
+    .project-content {
+        margin-left: 5%;
+        margin-bottom: 25%;
+    }
+
+
+    .social-sub {
+        font-size: 2em;
+    }
+
+    .gif-container {
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 8%;
+    }
+
+    .gif-text {
+        font-size: 1em;
+        margin-left: 5%;
+        margin-bottom: 15%;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+
+    .linkedin-logo {
+        height: 25px;
+        width: 25px;
+    }
+
+    .github-logo {
+        height: 25px;
+        width: 25px;;
+    }
+
+    .email-logo {
+        height: 25px;
+        width: 25px;
     }
 
 }
