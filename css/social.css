@@ -285,6 +285,12 @@ html, body {
         margin-top: 15%;
     }
 
+    @-moz-document url-prefix() {
+      .social-title {
+        width: 37%;
+      }
+    }
+
     .social-sub {
         font-size: 3em;
     }
@@ -339,6 +345,12 @@ html, body {
         margin-left: 10%;
         margin-top: 25%;
         margin-bottom: 10%;
+    }
+
+    @-moz-document url-prefix() {
+      .social-title {
+        width: 51%;
+      }
     }
 
     .project-content {

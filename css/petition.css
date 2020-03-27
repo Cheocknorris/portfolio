@@ -70,6 +70,12 @@ html, body {
     position: relative;
 }
 
+@-moz-document url-prefix() {
+  .petition-title {
+    width: 145px;
+  }
+}
+
 .petition-sub {
     font-family: 'Khand', sans-serif;
     color: black;
@@ -233,6 +239,12 @@ html, body {
          height: 20%;
      }
 
+     @-moz-document url-prefix() {
+       .petition-title {
+         width: 19%;
+       }
+     }
+
      .petition-sub {
          font-size: 4em;
      }
@@ -351,6 +363,12 @@ html, body {
          margin-left: 10%;
          margin-top: 25%;
          margin-bottom: 10%;
+     }
+
+     @-moz-document url-prefix() {
+       .petition-title {
+         width: 26%;
+       }
      }
 
      .project-content {

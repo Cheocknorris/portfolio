@@ -69,6 +69,12 @@ html, body {
     position: relative;
 }
 
+@-moz-document url-prefix() {
+  .connect-title {
+    width: 250px;
+  }
+}
+
 .connect-sub {
     font-family: 'Khand', sans-serif;
     color: black;
@@ -228,6 +234,12 @@ html, body {
          height: 20%;
      }
 
+     @-moz-document url-prefix() {
+       .spotify-title {
+         width: 22%;
+       }
+     }
+
      .connect-sub {
          font-size: 4em;
      }
@@ -292,6 +304,12 @@ html, body {
          margin-top: 15%;
      }
 
+     @-moz-document url-prefix() {
+       .connect-title {
+         width: 33%;
+       }
+     }
+
      .connect-sub {
          font-size: 3em;
      }
@@ -346,6 +364,12 @@ html, body {
          margin-left: 10%;
          margin-top: 25%;
          margin-bottom: 10%;
+     }
+
+     @-moz-document url-prefix() {
+       .connect-title {
+         width: 45%;
+       }
      }
 
      .project-content {

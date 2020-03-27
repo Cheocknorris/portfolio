@@ -72,6 +72,12 @@ html, body {
     position: relative;
 }
 
+@-moz-document url-prefix() {
+  .image-title {
+    width: 230px;
+  }
+}
+
 .image-sub {
     font-family: 'Khand', sans-serif;
     color: black;
@@ -163,12 +169,6 @@ html, body {
                0 -2 16px rgba(0, 0, 0, 0.12); */
  }
 
- /* .icon-link {
-     position: absolute;
-     padding: 0;
-     margin: 0;
- } */
-
  .linkedin-logo {
      height: 25px;
      width: 25px;
@@ -214,8 +214,6 @@ html, body {
  .email-logo:hover {
      transform: scale(1.2);
  }
-
-
 
  @media only screen and (max-width: 1024px) {
      .project-content {
@@ -305,6 +303,12 @@ html, body {
          margin-top: 15%;
      }
 
+     @-moz-document url-prefix() {
+       .image-title {
+         width: 30%;
+       }
+     }
+
      .image-sub {
          font-size: 3em;
      }
@@ -359,6 +363,12 @@ html, body {
          margin-left: 10%;
          margin-top: 25%;
          margin-bottom: 10%;
+     }
+
+     @-moz-document url-prefix() {
+       .image-title {
+         width: 41%;
+       }
      }
 
      .project-content {
