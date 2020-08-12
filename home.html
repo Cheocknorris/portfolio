@@ -11,126 +11,209 @@
 </head>
 
 <body>
-    <a id="main"></a>
-        <div class='intro'>
-              <div class='intro__container-main'>
-                <div class='intro__container-left'>
-                    <h1 class='intro__title-left'>ELISEO</h1>
-                    <h2 class='intro__sub-left'>web</h2>
-                </div>
-                <div class='intro__line'></div>
-                <div class='intro__container-right'>
-                    <h1 class='intro__title-right'>QUINTANILLA</h1>
-                    <h2 class='intro__sub-right'>developer</h2>
-                </div>
-              </div>
-              <div class='intro__bottom'>
-                  <i class="fas fa-chevron-down"></i>
+    <!-- <a id="main"></a> -->
+    <div class='intro'>
+        <div class='intro__container-main'>
+            <div class='intro__container-left'>
+                <h1 class='intro__title-left'>ELISEO</h1>
+                <h2 class='intro__sub-left'>web</h2>
+            </div>
+            <div class='intro__line'></div>
+            <div class='intro__container-right'>
+                <h1 class='intro__title-right'>QUINTANILLA</h1>
+                <h2 class='intro__sub-right'>developer</h2>
             </div>
         </div>
-
-
-        <div class='about'>
-            <div class='about__text-container'>
-                <p class='about__text-one'>Berlin based</p>
-            </div>
-            <div class="about__text-container">
-                <p class='about__text-two'>full stack</p>
-            </div>
-            <div class="about__text-container">
-                <p class='about__text-three'>web developer</p>
-            </div>
-            <div class='about__text-container'>
-                <p class='about__text-four'>with a background</p>
-            </div>
-            <div class='about__text-container'>
-                <p class='about__text-five'>in market research,</p>
-            </div>
-            <div class='about__text-container'>
-                <p class='about__text-six'>copywriting</p>
-            </div>
-            <div class='about__text-container'>
-                <p class='about__text-seven'>and content marketing</p>
-            </div>
+        <div class='intro__bottom'>
+            <i class="fas fa-chevron-down"></i>
         </div>
+    </div>
 
-        <div class='work'>
-            <a id="work"></a>
-            <div class='work__title-container'>
-                <h1 class='work__title'>MY WORK</h1>
-                <div class='work__title-underline'></div>
-            </div>
-        <div class='projects-container'>
-            <div class='project-container-one'>
-                <a href="social.html"><img class='project-image' src="images/mexicans.png" alt=""></a>
-                <div class='project-overlay'>
-                    <!-- <a class='project-name' href="social.html">SOCIAL NETWORK</a> -->
-                    <div class='project-show-more'>
-                        <a class='more' href="social.html">
 
-                                Social Network
-                        </a>
+    <div class='about'>
+        <div class='about__text-container'>
+            <p class='about__text-one'>Berlin based</p>
+        </div>
+        <div class="about__text-container">
+            <p class='about__text-two'>full stack</p>
+        </div>
+        <div class="about__text-container">
+            <p class='about__text-three'>web developer</p>
+        </div>
+        <div class='about__text-container'>
+            <p class='about__text-four'>with a background</p>
+        </div>
+        <div class='about__text-container'>
+            <p class='about__text-five'>in market research,</p>
+        </div>
+        <div class='about__text-container'>
+            <p class='about__text-six'>copywriting</p>
+        </div>
+        <div class='about__text-container'>
+            <p class='about__text-seven'>and content marketing</p>
+        </div>
+    </div>
 
-                    </div>
+    <div class='work'>
+            <!-- <a id="work"></a> -->
+        <div class='work__title-container'>
+            <h1 class='work__title'>MY WORK</h1>
+            <div class='work__title-underline'></div>
+        </div>
+        <div class='work__projects-container'>
+            <div class="work__project-card">
+                <div class="work__gif-container">
+                    <img class="work__project-gif" src="images/social1.gif" alt="">
+                </div>
+                <div class="work__project-text">
+                    <p>
+                        Register, login, reset password, upload profile picture, add and update bio, search users, add or delete friends and chat. <span style="font-weight:900">A social network</span> is a great way to learn React, fine tune the use of databases, and overall, excercise the Javascript logic.
+                    </p>
+                    <p>
+                        <span style="font-weight:900">Technologies used:</span> React, Redux, Socket.IO, Express, PostgreSQL, AWS S3.
+                    </p>
+                    <a class="see-on" href="https://github.com/Cheocknorris/social-network">
+                        <span style="font-weight:900">See on Github</span>
+                    </a>
                 </div>
             </div>
-            <div class='project-container-two'>
+            <div class="work__project-card">
+                <div class="work__gif-container">
+                    <img class="work__project-gif" src="images/image1.gif" alt="">
+                </div>
+                <div class="work__project-text">
+                    <p>
+                        Instagram-like single page application for uploading pictures. Different users can upload pictures, navigate through them and comment them. Users' information and comments are stored in SQL databases, and pictures are stored in AWS.
+                    </p>
+                    <p>
+                        <span style="font-weight:900">Technologies used:</span> Vue, Express, PostgreSQL, AWS S3.
+                    </p>
+                    <a class="see-on" href="https://github.com/Cheocknorris/image-board">
+                        <span style="font-weight:900">See on Github</span>
+                    </a>
+                </div>
+            </div>
+            <div class="work__project-card">
+                <div class="work__gif-container">
+                    <img class="work__project-gif" src="images/petition1.gif" alt="">
+                </div>
+                <div class="work__project-text">
+                    <p>
+                        In a change.org style, allows users to support a cause with their signature. Requires resgitration and login, and allows pofile updates. Users sign with the mouse and have the alternative to delete their signature. All the information is stored in SQL databases, and it's dynamically rendered with Handlebars.
+                    </p>
+                    <p>
+                        <span style="font-weight:900">Technologies used:</span> Express, PostgreSQL, Handlebars, JQuery, Canvas.
+                    </p>
+                    <a class="see-on" href="https://github.com/Cheocknorris/petition">
+                        <span style="font-weight:900">See on Github</span>
+                    </a>
+                </div>
+            </div>
+            <div class="work__project-card">
+                <div class="work__gif-container">
+                    <img class="work__project-gif" src="images/github1.gif" alt="">
+                </div>
+                <div class="work__project-text">
+                    <p>
+                        Through the Github API, users can use their credentials to look for other users. It allows to see all of the repositories of the searched profile, and by clicking in a repository, the last ten commits are dispalyed.
+                    </p>
+                    <p>
+                        <span style="font-weight:900">Technologies used:</span> Ajax, Handlebars, JQuery.
+                    </p>
+                    <a class="see-on" href="https://github.com/Cheocknorris/github-search">
+                        <span style="font-weight:900">See on Github</span>
+                    </a>
+                </div>
+            </div>
+            <div class="work__project-card">
+                <div class="work__gif-container">
+                    <img class="work__project-gif" src="images/spotify1.gif" alt="">
+                </div>
+                <div class="work__project-text">
+                    <p>
+                        This simple interphase makes ajax requests to the Spotify API, allowing users to search by artist or album. Each search throws 20 results, and a "more" is desplayed or hidden, depending on if there's more results to be shown.
+                    </p>
+                    <p>
+                        <span style="font-weight:900">Technologies used:</span> Ajax, Handlebars, JQuery.
+                    </p>
+                    <a class="see-on" href="https://github.com/Cheocknorris/spotify-request">
+                        <span style="font-weight:900">See on Github</span>
+                    </a>
+                </div>
+            </div>
+            <div class="work__project-card">
+                <div class="work__gif-container">
+                    <img class="work__project-gif" src="images/connect1.gif" alt="">
+                </div>
+                <div class="work__project-text">
+                    <p>
+                        This two player version of <span style="font-weight:900">Connect Four</span> is a really fun to play, and a great way to excercise the Javascript logic.
+                    </p>
+                    <p>
+                        <span style="font-weight:900">Technologies used:</span> HTML, CSS, Javascript.
+                    </p>
+                    <a class="see-on" href="https://github.com/Cheocknorris/connect-four">
+                        <span style="font-weight:900">See on Github</span>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class='project-container-two'>
                 <a href="image.html"><img class='project-image' src="images/albums.png" alt=""></a>
                 <div class='project-overlay'>
                     <!-- <a class='project-name' href="image.html"></a> -->
-                    <div class='project-show-more'>
+                    <!-- <div class='project-show-more'>
                         <a class='more' href="image.html">
                             Image board
                         </a>
-                    </div>
-                </div>
-            </div>
-            <div class='project-container-three'>
+                    </div> -->
+                <!-- </div>
+            </div> -->
+            <!-- <div class='project-container-three'>
                 <a href="petition.html"><img class='project-image' src="images/petition.png" alt=""></a>
                 <div class='project-overlay'>
                     <!-- <a class='project-name' href="petition.html">PETITION</a> -->
-                    <a href="social.html"><div class='project-show-more'>
+                    <!-- <a href="social.html"><div class='project-show-more'>
                         <a class='more' href="petition.html">
                             Petition
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class='project-container-four'>
+            </div> -->
+            <!-- <div class='project-container-four'>
                 <a href="github.html"><img class='project-image' src="images/github.png" alt=""></a>
                 <div class='project-overlay'>
                     <!-- <a class='project-name' href="github.html">GITHUB SEARCH</a> -->
-                    <div class='project-show-more'>
+                    <!-- <div class='project-show-more'>
                         <a class='more' href="github.html">
                             Github search
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class='project-container-five'>
+            </div> -->
+            <!-- <div class='project-container-five'>
                 <a href="spotify.html"><img class='project-image' src="images/spotify.png" alt=""></a>
                 <div class='project-overlay'>
                     <!-- <a class='project-name' href="spotify.html">SPOTIFY SEARCH</a> -->
-                    <div class='project-show-more'>
+                    <!-- <div class='project-show-more'>
                         <a class='more' href="spotify.html">
                             Spotify search
                         </a>
-                    </div>
-                </div>
-            </div>
-            <div class='project-container-six'>
+                    </div> -->
+                <!-- </div>
+            </div> -->
+            <!-- <div class='project-container-six'>
                 <a href="connect.html"><img class='project-image' src="images/connect.png" alt=""></a>
                 <div class='project-overlay'>
                     <!-- <a class='project-name' href="connect.html">CONNECT FOUR</a> -->
-                    <div class='project-show-more'>
+                    <!-- <div class='project-show-more'>
                         <a class='more' href="connect.html">
                             Connect four
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
+            </div> -->
+        </div> 
+    </div>
         <!-- <a href="#linktotop">Back To Top</a> -->
         <footer>
             <a href="https://www.linkedin.com/in/eliseo-quintanilla/"><img class="linkedin-logo" src="images/linkedin.png" alt=""></a>
